@@ -3,8 +3,24 @@
     "description": "Reliable webhook delivery for Laravel: HMAC signing, retries, dead-letter queues, and replay",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel", "webhooks", "retries", "hmac", "dead-letter", "saas"],
-    "authors": [{"name": "Mohamed Hekal"}],
+    "keywords": [
+        "laravel",
+        "webhooks",
+        "retries",
+        "hmac",
+        "dead-letter",
+        "saas",
+        "php",
+        "laravel-package",
+        "webhook",
+        "outbound-webhooks",
+        "signature"
+    ],
+    "authors": [
+        {
+            "name": "Mohamed Hekal"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "illuminate/support": "^11.0|^12.0",
@@ -23,15 +39,23 @@
         "phpstan/phpstan": "^2.0"
     },
     "autoload": {
-        "psr-4": {"Hekal\\HookRelay\\": "src/"}
+        "psr-4": {
+            "Hekal\\HookRelay\\": "src/"
+        }
     },
     "autoload-dev": {
-        "psr-4": {"Hekal\\HookRelay\\Tests\\": "tests/"}
+        "psr-4": {
+            "Hekal\\HookRelay\\Tests\\": "tests/"
+        }
     },
     "extra": {
         "laravel": {
-            "providers": ["Hekal\\HookRelay\\HookRelayServiceProvider"],
-            "aliases": {"HookRelay": "Hekal\\HookRelay\\Facades\\HookRelay"}
+            "providers": [
+                "Hekal\\HookRelay\\HookRelayServiceProvider"
+            ],
+            "aliases": {
+                "HookRelay": "Hekal\\HookRelay\\Facades\\HookRelay"
+            }
         }
     },
     "scripts": {
@@ -41,8 +65,15 @@
     },
     "config": {
         "sort-packages": true,
-        "allow-plugins": {"pestphp/pest-plugin": true}
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "homepage": "https://github.com/mohamedhekal/hookrelay",
+    "support": {
+        "issues": "https://github.com/mohamedhekal/hookrelay/issues",
+        "source": "https://github.com/mohamedhekal/hookrelay"
+    }
 }

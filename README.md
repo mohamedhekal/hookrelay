@@ -1,5 +1,14 @@
 # HookRelay
 
+
+[![CI](https://github.com/mohamedhekal/hookrelay/actions/workflows/tests.yml/badge.svg)](https://github.com/mohamedhekal/hookrelay/actions)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4.svg)](https://www.php.net/)
+[![Laravel](https://img.shields.io/badge/Laravel-11%2F12-FF2D20.svg)](https://laravel.com/)
+
+**Search terms:** laravel, webhooks, retries, hmac, dead-letter, saas, php, laravel-package, webhook, outbound-webhooks, signature.
+
+
 Reliable webhook delivery for Laravel SaaS apps: fan-out events to subscriber endpoints with HMAC signatures, retries, dead-lettering, and replay—plus optional inbound ingest.
 
 ## Problem
