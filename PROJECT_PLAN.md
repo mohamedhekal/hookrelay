@@ -2,7 +2,7 @@
 
 ## Name
 
-**HookRelay** (`hekal/hookrelay`)
+**HookRelay** (`mohamedhekal/hookrelay`)
 
 ## Vision
 

@@ -1,7 +1,7 @@
 # HookRelay
 
 
-[![CI](https://github.com/mohamedhekal/hookrelay/actions/workflows/tests.yml/badge.svg)](https://github.com/mohamedhekal/hookrelay/actions)
+[![CI](https://github.com/mohamedmohamedhekal/hookrelay/actions/workflows/tests.yml/badge.svg)](https://github.com/mohamedmohamedhekal/hookrelay/actions)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4.svg)](https://www.php.net/)
 [![Laravel](https://img.shields.io/badge/Laravel-11%2F12-FF2D20.svg)](https://laravel.com/)
@@ -18,7 +18,7 @@ Webhook handlers fail silently, retries are ad hoc, and there is no audit trail 
 ## Installation
 
 ```bash
-composer require hekal/hookrelay
+composer require mohamedhekal/hookrelay
 php artisan vendor:publish --tag=hookrelay-config
 php artisan migrate
 ```

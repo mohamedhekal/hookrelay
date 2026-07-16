@@ -1,5 +1,5 @@
 {
-    "name": "hekal/hookrelay",
+    "name": "mohamedmohamedhekal/hookrelay",
     "description": "Reliable webhook delivery for Laravel: HMAC signing, retries, dead-letter queues, and replay",
     "type": "library",
     "license": "MIT",
@@ -71,9 +71,9 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "homepage": "https://github.com/mohamedhekal/hookrelay",
+    "homepage": "https://github.com/mohamedmohamedhekal/hookrelay",
     "support": {
-        "issues": "https://github.com/mohamedhekal/hookrelay/issues",
-        "source": "https://github.com/mohamedhekal/hookrelay"
+        "issues": "https://github.com/mohamedmohamedhekal/hookrelay/issues",
+        "source": "https://github.com/mohamedmohamedhekal/hookrelay"
     }
 }
